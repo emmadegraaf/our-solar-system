@@ -30,12 +30,12 @@
 
   /*Kleur thema's*/
   body {
-    /*
+    
     color: var(--text-color);
     background: var(--background);
-    */
-    color: black;
-    background-color: white;
+   
+    /* color: black;
+    background-color: white; */
 
     margin: 0;
     padding: 0;
