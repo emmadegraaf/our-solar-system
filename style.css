@@ -277,7 +277,7 @@
     }
   
     .navbar:hover {
-      width: 25rem;
+      width: 20rem;
     }
   
     .navbar:hover .link-text {
@@ -299,7 +299,7 @@
   */
   .post {
     display: grid;
-    grid-template-columns: minmax(27rem, 1fr) minmax(auto, 100ch) minmax(27rem, 1fr);
+    grid-template-columns: minmax(22rem, 1fr) minmax(auto, 100ch) minmax(22rem, 1fr);
   }
   
   /* position text paragraphs into the second (middle) column */
