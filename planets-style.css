@@ -42,12 +42,12 @@ img {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-columns: 10% 30% 10% 40% 10%;
   grid-template-rows: 10% 1fr 1fr;
   grid-template-areas: 
-  "header header header header" 
-  "x title details y" 
-  "x planet photos photos";
+  "header header header header header" 
+  "x title z details y" 
+  "x planet z photos photos";
 }
 .planet > .planet-title {
   display: block;
