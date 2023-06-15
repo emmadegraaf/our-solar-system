@@ -250,7 +250,7 @@
       display: grid;
       grid-template-columns: minmax(1rem, 1fr) minmax(auto, 64ch) minmax(1rem, 1fr);
     }
-    h1, h2, ul, code, p {
+    h1, h2, ul, ol, code, p {
       grid-column: 2;
     }
     img {
@@ -316,7 +316,7 @@
     color: #ff7eee;
   }
 
-  ul {
+  ul, ol {
     grid-column: 2;
     column-count: 1;
     column-gap: 2em;
